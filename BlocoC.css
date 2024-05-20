@@ -47,5 +47,8 @@ h1 {
 .sala:hover {
     background-color: #1976D2; /* Azul escuro */
 }
-
+.imagem {
+    background-position: center;
+    background-color: #f0f0f0;
+}
 
