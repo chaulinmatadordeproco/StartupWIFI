@@ -47,3 +47,9 @@ h1 {
 .sala:hover {
     background-color: #1976D2; /* Azul escuro */
 }
+
+.logo{
+        background-position: center;
+        background-image: url("logo-senai.png");
+        background-color: #f0f0f0;  
+}
