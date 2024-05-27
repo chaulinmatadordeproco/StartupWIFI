@@ -49,18 +49,6 @@ p {
     background-color: #1976D2 /* Verde escuro */
 }
 
-.home-icon {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.home-icon-svg {
-    width: 24px;
-    height: 24px;
-}
-
-
 svg {
     display: block;
     margin-top: -10px; /* Ajustar o posicionamento vertical do ícone */
