@@ -10,9 +10,20 @@
     <div class="container">
         <h1>Estou no bloco:</h1>
         <div class="buttons">
-            <button class="btn">Bloco A</button>
-            <button class="btn">Bloco B</button>
-            <button class="btn">Bloco C</button>
+            <button class="btn" onclick="rediA()">Bloco A</button>
+            <button class="btn" onclick="rediB()">Bloco B</button>
+            <button class="btn" onclick="rediC()">Bloco C</button>
+            <script>
+                function rediA() {
+                    window.location.href = "BlocoA.html"
+                }
+                function rediB() {
+                    window.location.href = "BlocoB.html"
+                }
+                function rediC() {
+                    window.location.href = "BlocoC.html"
+                }
+            </script>
         </div>
         <div class="logo">
             <img src="logo-senai.png" alt="0000">

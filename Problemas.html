@@ -1,20 +1,33 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Salas e Seções</title>
     <link rel="stylesheet" href="Problemas.css">
 </head>
+
 <body>
     <div class="container">
         <h1>Meu problema é:</h1>
         <div class="buttons">
-            <button class="btn sala">Conexão fraca</button>
-            <button class="btn sala">Sem rede</button>
+            <button class="btn sala" onclick="rediConexao()">Conexão fraca</button>
+            <button class="btn sala" onclick="redisemRede()">Sem rede</button>
             <button class="btn sala"> Não conecta na rede </button>
             <button class="btn sala">Outro</button></button>
+
+            <script>
+                function rediConexao() {
+                    window.location.href = "testedevelocidade.html"
+                }
+                function redisemRede() {
+                    window.location.href = "iconewifipag.html"
+                }
+            </script>
+
         </div>
     </div>
 </body>
+
 </html>
