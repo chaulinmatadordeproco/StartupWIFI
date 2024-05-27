@@ -38,3 +38,12 @@ h1 {
 .btn:hover {
     background-color: #2015b9; /* Azul escuro */
 }
+img{
+    height: 200px;
+    width: 400px;
+}
+.imagem {
+    background-position: center;
+    background-color: #f0f0f0;
+    
+}
