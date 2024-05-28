@@ -1,19 +1,21 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
 <head>
-  <title>Caixa de Texto</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SSID do Wi-Fi</title>
+    <link rel="stylesheet" href="inserircodwifi.css">
 </head>
 <body>
-  <h1>Digite algo na caixa de texto:</h1>
-  <input type="text" id="textBox" placeholder="Escreva aqui">
-  <button onclick="displayText()">Mostrar Texto</button>
-  <p id="output"></p>
-
-  <script>
-    function displayText() {
-      var textInput = document.getElementById("textBox").value;
-      document.getElementById("output").innerHTML = "Você digitou: " + textInput;
-    }
-  </script>
+    <div class="container">
+        <h1>Insira o Problema</h1>
+        <input type="text" class="input-wifi" placeholder="Outro">
+        <button class="btn" onclick="redi()">Enviar</button>
+        <script>
+            function redi() {
+                window.location.href = "telafinal.html"
+            }
+        </script>
+    </div>
 </body>
 </html>
