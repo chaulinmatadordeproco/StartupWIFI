@@ -14,8 +14,8 @@
         <div class="buttons">
             <button class="btn sala" onclick="rediConexao()">Conexão fraca</button>
             <button class="btn sala" onclick="redisemRede()">Sem rede</button>
-            <button class="btn sala"> Não conecta na rede </button>
-            <button class="btn sala">Outro</button></button>
+            <button class="btn sala" onclick="redi()"> Não conecta na rede </button>
+            <button class="btn sala" onclick="redi()">Outro</button></button>
 
             <script>
                 function rediConexao() {
@@ -23,6 +23,9 @@
                 }
                 function redisemRede() {
                     window.location.href = "iconewifipag.html"
+                }
+                function redi() {
+                    window.location.href = "telafinal.html"
                 }
             </script>
 
