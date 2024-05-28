@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Caixa de Texto</title>
+</head>
+<body>
+  <h1>Digite algo na caixa de texto:</h1>
+  <input type="text" id="textBox" placeholder="Escreva aqui">
+  <button onclick="displayText()">Mostrar Texto</button>
+  <p id="output"></p>
+
+  <script>
+    function displayText() {
+      var textInput = document.getElementById("textBox").value;
+      document.getElementById("output").innerHTML = "Você digitou: " + textInput;
+    }
+  </script>
+</body>
+</html>
